@@ -620,24 +620,6 @@ h5 {
   }
 }
 @media screen and (max-width: 768px) {
-  /* nav {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 30%;
-    text-align: center;
-    top: 50px;
-    left: 1rem;
-    background: #fff;
-  }
-  nav div {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 0 4px 1px #ebdede;
-    width: 400px;
-    align-items: center;
-    padding: 50px 0px;
-  } */
   .cards {
     display: flex;
     flex-direction: column;
@@ -829,7 +811,6 @@ h5 {
   #clients {
     background-image: url("Images/testimony_bg.png");
     background-size: cover;
-    /* background-size: auto 100%; */
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
@@ -917,6 +898,8 @@ display: none;
     padding: 8% 8%;
     position: absolute;
     bottom: -1000px;
+    margin-bottom: 300px;
+    
   }
   #contact__container {
     width: 80%;
