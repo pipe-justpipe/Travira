@@ -1,0 +1,1099 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Poppins:wght@400;600&display=swap");
+
+:root {
+  --light-blue: #2f80ed;
+  --gray: #333333;
+  --dark-blue: #0e1035;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+#travira__logo {
+  width: 122px;
+  height: 122px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav div {
+  display: flex;
+  gap: 42.06px;
+}
+nav a {
+  color: var(--gray);
+  font-family: Poppins;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+}
+
+.contact {
+  border: 1px solid var(--dark-blue);
+  border-radius: 16px;
+  padding: 16.82px 42.06px;
+  font-family: Poppins;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark-blue);
+}
+#hero__section {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin-left: 5%;
+}
+#hero__section figure {
+  width: 900px;
+  height: 100vh;
+  margin-left: -300px;
+}
+#hero__section img {
+  display: flex;
+  justify-content: flex-end;
+  height: 1000px;
+  width: 100%;
+  margin-top: -150px;
+}
+#hero__section div {
+  display: grid;
+  height: 616px;
+  margin-top: 5%;
+}
+#hero__section h1 {
+  width: 774px;
+  font-size: 78px;
+  font-weight: 700;
+}
+#hero__section p {
+  width: 642px;
+  font-size: 24px;
+  color: #676767;
+  line-height: 36px;
+}
+#booking__button {
+  background-color: var(--dark-blue);
+  color: #ffffff;
+  border-radius: 31.54px;
+  width: 342px;
+  height: 109px;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span,
+#home {
+  color: var(--light-blue);
+}
+#services {
+  background-color: var(--dark-blue);
+}
+
+.services {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  gap: 50px;
+  padding: 50px 0;
+}
+.services > h3 {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+}
+.none {
+  display: flex;
+  justify-content: space-between;
+}
+.showFig{
+  display: none;
+}
+#services {
+  color: #ffffff;
+}
+#services p {
+  color: #bdbbbb;
+  width: 642px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#chevron {
+  width: 110px;
+  height: 113px;
+}
+#exxon {
+  width: 280px;
+  height: 58px;
+}
+#pertamina {
+  width: 353px;
+  height: 89px;
+}
+#petronas {
+  width: 284px;
+  height: 78px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom .text {
+  display: grid;
+  height: 492px;
+  width: 734px;
+}
+#seat {
+  width: 608px;
+  height: 573px;
+}
+.uppercase {
+  display: flex;
+  width: 734px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  justify-content: space-between;
+}
+.uppercase h3 {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.uppercase a {
+  color: #ffffff;
+}
+.uppercase a:hover {
+  color: #2f80ed;
+}
+.uppercase a:visited {
+  color: #676767;
+}
+
+#safety {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.headings {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.45px;
+}
+.safety {
+  display: grid;
+  height: 552px;
+  width: 759px;
+}
+#safety p {
+  width: 642px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #676767;
+}
+.cockpit {
+  width: 608px;
+  height: 573px;
+  border-radius: 50px;
+}
+.capital {
+  display: flex;
+  justify-content: space-between;
+  width: 759px;
+}
+.capital h3 {
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.capital a {
+  color: var(--dark-blue);
+}
+.capital a:hover {
+  color: var(--light-blue);
+}
+.capital a:visited {
+  color: #333333;
+}
+#fleet {
+  text-align: center;
+  display: grid;
+  gap: 50px;
+}
+#fleet p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #676767;
+  width: 744px;
+  height: 72px;
+  margin: 0 auto;
+}
+.scroll__container {
+  overflow-x: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  /* width: 100vw; */
+}
+.scroll__container::-webkit-scrollbar {
+  display: none;
+}
+.scrolls {
+  display: flex;
+  width: 100vw;
+  -webkit-overflow-scrolling: touch;
+  margin: 50px 0;
+}
+.scroll {
+  position: relative;
+}
+.sky {
+  width: 688.12px;
+  height: 439px;
+}
+.cessna {
+  width: 530.19px;
+  position: absolute;
+  top: 70px;
+  left: 70px;
+}
+.beechcraft {
+  width: 530.19px;
+  position: absolute;
+  top: 150px;
+  left: 70px;
+}
+figcaption {
+  margin: 30px 0;
+}
+.item {
+  flex: 0 0 auto;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  box-shadow: 0px 4px 50px 0px #74747440;
+}
+.bg {
+  display: flex;
+  justify-content: space-between;
+}
+.show{
+  display: none;
+}
+#clients h1 {
+  width: 648px;
+  height: 199.03px;
+  top: 62px;
+  left: 25px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #232323;
+}
+.testimony_bg {
+  width: 646px;
+  height: 1104px;
+  display: block;
+}
+.portrait {
+  width: 100px;
+  height: 100px;
+}
+h5 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.all {
+  position: relative;
+}
+.space {
+  width: 95%;
+  margin-left: auto;
+}
+.cards {
+  display: flex;
+  gap: 24px;
+  position: absolute;
+  top: 25%;
+}
+.card {
+  box-shadow: 30px 10px 50px 0px #9895954d;
+  width: 550px;
+  border-radius: 30px;
+  padding: 32px 25px;
+  display: grid;
+  gap: 20px;
+  background-color: #ffffff;
+}
+.card > div {
+  display: flex;
+  align-items: center;
+  width: 299px;
+  justify-content: space-between;
+}
+.card span {
+  color: #9c9c9c;
+  font-size: 16px;
+}
+.card p {
+  width: 500px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0e1035;
+}
+.stars {
+  width: 164px;
+  height: 28px;
+}
+#efran {
+  width: 338px;
+}
+#p {
+  color: #9c9c9c;
+}
+#contact h1 {
+  width: 336px;
+  height: 112px;
+  font-family: Poppins;
+  font-size: 46.26px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+#contact {
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("Images/curves.png");
+  background-size: cover;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 80%;
+  height: 422px;
+  border-radius: 84.12px;
+  height: auto;
+  padding: 8% 8%;
+  position: absolute;
+  bottom: -10%;
+}
+#contact__container {
+  width: 80%;
+  margin: 0 auto;
+}
+#contact a {
+  background-color: #ffffff;
+  color: var(--dark-blue);
+  width: 311px;
+  height: 109px;
+  padding: 32px 68px;
+  border-radius: 31.54px;
+  font-size: 32px;
+  font-family: inter;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#footer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10% auto 3% auto;
+  color: var(--dark-blue);
+}
+#footer img {
+  width: 173px;
+  height: 173px;
+}
+#footer ul {
+  margin-top: 33.65px;
+  display: grid;
+  gap: 16.82px;
+}
+#footer li {
+  list-style-type: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.last {
+  width: 365px;
+}
+@media screen and (max-width: 1532px) {
+  #safety {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  .showFig{
+    display: block;
+  }
+  .display{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .display div{
+    display: flex;
+    justify-content: space-between;
+  }
+  .none{
+    display: none;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+@media screen and (max-width: 1224px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    text-align: center;
+    top: 50px;
+    left: 1rem;
+    background: #fff;
+  }
+  nav div {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 4px 1px #ebdede;
+    width: 400px;
+    align-items: center;
+    padding: 50px 0px;
+  }
+  #hero__section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  #hero__section h1 {
+    font-size: 60px;
+    width: 600px;
+  }
+  #hero__section figure {
+    width: 100%;
+    height: 1000px;
+    margin-left: -150px;
+  }
+  #hero__section img {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+  }
+  .testimony_bg {
+    width: 456px;
+    margin-left: -50px;
+    height: 1104px;
+    display: block;
+  }
+  .card {
+    width: 350px;
+    border-radius: 30px;
+    padding: 32px 25px;
+    gap: 20px;
+  }
+  .card > div {
+    display: flex;
+    align-items: center;
+    width: 299px;
+    justify-content: space-between;
+  }
+  .card p {
+    width: 300px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0e1035;
+  }
+  .portrait {
+    width: 80px;
+    height: 80px;
+  }
+  #efran {
+    width: 300px;
+  }
+  #contact h1 {
+    width: 206px;
+    height: 98px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  #contact {
+    display: flex;
+    width: 70%;
+    height: 422px;
+    border-radius: 84.12px;
+    height: auto;
+    padding: 8% 8%;
+    position: absolute;
+    bottom: -100px;
+  }
+  #contact__container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #contact a {
+    padding: 12px 28px;
+    border-radius: 18px;
+    width: 150px;
+    height: 59px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  #footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15% auto 3% auto;
+    color: var(--dark-blue);
+  }
+}
+@media screen and (max-width: 768px) {
+  /* nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    text-align: center;
+    top: 50px;
+    left: 1rem;
+    background: #fff;
+  }
+  nav div {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 4px 1px #ebdede;
+    width: 400px;
+    align-items: center;
+    padding: 50px 0px;
+  } */
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: absolute;
+    top: 25%;
+    margin-top: 20%;
+  }
+  .card2{
+    margin: 0 0 0 100%;
+  }
+  #safety {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  #hero__section h1 {
+    width: 500px;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #hero__section p {
+    width: 420px;
+    font-size: 14px;
+    color: #676767;
+    line-height: 36px;
+    margin: 0 auto;
+  }
+  #booking__button {
+    border-radius: 18px;
+    width: 120px;
+    height: 59px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  #hero__section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  #hero__section div {
+    display: grid;
+    height: 416px;
+    margin-top: 0;
+  }
+  #hero__section figure {
+    width: 100%;
+    height: 700px;
+    margin-left: -150px;
+  }
+  #hero__section img {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+  }
+  .services {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    gap: 50px;
+    padding: 50px 0;
+  }
+  .services > h3 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+  }
+  #services {
+    color: #ffffff;
+  }
+  #services p {
+    color: #bdbbbb;
+    width: 342px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #chevron {
+    width: 70px;
+    height: 73px;
+  }
+  #exxon {
+    width: 150px;
+    height: 38px;
+  }
+  #pertamina {
+    width: 153px;
+    height: 49px;
+  }
+  #petronas {
+    width: 154px;
+    height: 48px;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .bottom h1{
+    text-align: center;
+    margin-top: 30px;
+  }
+  .bottom .text {
+    display: grid;
+    height: 492px;
+    width: 434px;
+  }
+  #seat {
+    width: 300px;
+    height: 200px;
+  }
+  .uppercase {
+    display: flex;
+    width: 400px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 36px;
+    justify-content: space-between;
+  }
+  .safety {
+    display: grid;
+    height: 552px;
+    width: 459px;
+  }
+  #safety p {
+    width: 342px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #676767;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  #safety h1{
+    text-align: center;
+  }
+  .cockpit {
+    width: 300px;
+    height: 200px;
+    border-radius: 50px;
+  }
+  .capital {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  .headings {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 77.45px;
+  }
+  .scrolls {
+    display: flex;
+    width: 80%;
+    -webkit-overflow-scrolling: touch;
+    margin: 50px 0;
+  }
+  #fleet p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #676767;
+    width: 504px;
+    height: 72px;
+    margin: 0 auto;
+  }
+  .bg{
+    display: none;
+  }
+  #clients {
+    background-image: url("Images/testimony_bg.png");
+    background-size: cover;
+    /* background-size: auto 100%; */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
+  #clients h1 {
+    width: 50%;
+    height: 24px;
+    top: 62px;
+    left: 25px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #232323;
+  }
+  .show{
+    display: bloc;
+  }
+  .testimony_bg {
+display: none;
+  }
+  .card {
+    box-shadow: 30px 10px 50px 0px #9895954d;
+    width: 250px;
+    border-radius: 30px;
+    padding: 32px 25px;
+    display: grid;
+    gap: 20px;
+    background-color: #ffffff;
+  }
+  .card > div {
+    display: flex;
+    align-items: center;
+    width: 189px;
+    justify-content: space-between;
+  }
+  .card span {
+    color: #9c9c9c;
+    font-size: 12px;
+  }
+  .card p {
+    width: 200px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0e1035;
+  }
+  .stars {
+    width: 100px;
+    height: 18px;
+  }
+  #efran {
+    width: 208px;
+  }
+  .portrait {
+    width: 60px;
+    height: 60px;
+  }
+  h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    text-align: left;
+  }
+  #contact h1 {
+    width: 206px;
+    height: 98px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+  }
+  #contact {
+    width: 70%;
+    height: 422px;
+    height: auto;
+    padding: 8% 8%;
+    position: absolute;
+    bottom: -1000px;
+  }
+  #contact__container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #contact a {
+    width: 150px;
+    height: 59px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .sky {
+    width: 388.12px;
+    height: 309px;
+  }
+  .cessna {
+    width: 280.19px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+  }
+  .beechcraft {
+    width: 280.19px;
+    position: absolute;
+    top: 150px;
+    left: 70px;
+  }
+  #footer{
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  #footer img {
+    width: 103px;
+    height: 103px;
+  }
+  #footer li {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  #footer h5{
+    text-align: center;
+  }
+  .last {
+    width: 165px;
+  }
+}
+@media screen and (max-width: 532px) {
+.card2{
+  margin-left: 0;
+}
+#hero__section h1 {
+  width: 280px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+}
+  #fleet p {
+    font-size: 14px;
+    line-height: 36px;
+    width: 280px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .services > h3 {
+    width: 280px;
+    font-size: 15px;
+    line-height: 35px;
+    margin: 0 auto;
+  }
+  .safety h1{
+    width: 280px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .safety {
+    width: auto;
+  }
+  .scrolls {
+    display: flex;
+    width: 100vw;
+    -webkit-overflow-scrolling: touch;
+    margin: 50px 0;
+  }
+  .item {
+    font-size: 14px;
+  }
+  .sky {
+    width: 258.12px;
+    height: 209px;
+  }
+  .cessna {
+    width: 150.19px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+  }
+  .beechcraft {
+    width: 150.19px;
+    position: absolute;
+    top: 150px;
+    left: 70px;
+  }
+  .bottom {
+    width: 280px;
+    margin: 0 auto;
+  }
+  .bottom h1{
+    text-align: center;
+    margin-top: 30px;
+    width: 250px;
+    margin: 30px  auto 0 auto;
+  }
+  #contact h1 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  nav div {
+    width: 200px;
+    align-items: center;
+    padding: 50px 0px;
+  }
+  #hero__section p{
+    width: 280px;
+ 
+  }
+  .bottom .text {
+    display: grid;
+    height: 492px;
+    width: 280px;
+    text-align: left;
+  }
+  .uppercase{
+    width: 200px;
+  }
+  #services p{
+    width: 200px;
+    margin: 30px auto;
+  }
+  #services{
+    padding: 0 0 70px 0;
+  }
+  #safety p {
+    width: 200px;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .capital{
+    width: 250px;
+  }
+  .showFig{
+    display: none;
+  }
+  .none{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #hero__section figure {
+    width: 100%;
+    height: 400px;
+    margin-left: -50px;
+  }
+  #seat {
+    width: 250px;
+    height: 200px;
+  }
+  .cockpit {
+    width: 250px;
+    height: 200px;
+    border-radius: 50px;
+  }
+}
