@@ -577,10 +577,8 @@ h5 {
   }
   .card p {
     width: 300px;
-    font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
-    color: #0e1035;
   }
   .portrait {
     width: 80px;
@@ -593,7 +591,6 @@ h5 {
     width: 206px;
     height: 98px;
     font-size: 24px;
-    font-weight: 600;
     line-height: 36px;
     letter-spacing: 0px;
     text-align: left;
@@ -618,7 +615,6 @@ h5 {
     width: 150px;
     height: 59px;
     font-size: 16px;
-    font-weight: 700;
     line-height: 35px;
     letter-spacing: 0em;
     text-align: center;
@@ -654,14 +650,12 @@ h5 {
   #hero__section h1 {
     width: 500px;
     font-size: 50px;
-    font-weight: 700;
     text-align: center;
     margin: 0 auto;
   }
   #hero__section p {
     width: 420px;
     font-size: 14px;
-    color: #676767;
     line-height: 36px;
     margin: 0 auto;
   }
@@ -670,9 +664,7 @@ h5 {
     width: 120px;
     height: 59px;
     font-size: 16px;
-    font-weight: 700;
     line-height: 45px;
-    letter-spacing: 0em;
     text-align: center;
     display: flex;
     align-items: center;
@@ -702,20 +694,14 @@ h5 {
     margin-top: 0;
   }
   .services {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
     display: grid;
     gap: 50px;
     padding: 50px 0;
   }
   .services > h3 {
     text-align: center;
-    font-family: Poppins;
     font-size: 15px;
-    font-weight: 700;
     line-height: 35px;
-    letter-spacing: 0em;
   }
   #services {
     color: #ffffff;
@@ -724,7 +710,6 @@ h5 {
     color: #bdbbbb;
     width: 342px;
     font-size: 14px;
-    font-weight: 500;
     line-height: 36px;
     text-align: center;
     margin: 0 auto;
@@ -767,7 +752,6 @@ h5 {
     display: flex;
     width: 400px;
     font-size: 12px;
-    font-weight: 700;
     line-height: 36px;
     justify-content: space-between;
   }
@@ -779,9 +763,7 @@ h5 {
   #safety p {
     width: 342px;
     font-size: 14px;
-    font-weight: 500;
     line-height: 36px;
-    color: #676767;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -804,7 +786,6 @@ h5 {
   }
   .headings {
     font-size: 30px;
-    font-weight: 700;
     line-height: 77.45px;
   }
   .scrolls {
@@ -815,10 +796,7 @@ h5 {
   }
   #fleet p {
     font-size: 14px;
-    font-weight: 500;
     line-height: 36px;
-    letter-spacing: 0em;
-    color: #676767;
     width: 504px;
     height: 72px;
     margin: 0 auto;
@@ -839,11 +817,8 @@ h5 {
     top: 62px;
     left: 25px;
     font-size: 34px;
-    font-weight: 700;
     line-height: 46px;
-    letter-spacing: 0.01em;
     text-align: center;
-    color: #232323;
   }
   .show{
     display: bloc;
@@ -867,18 +842,13 @@ display: none;
     justify-content: space-between;
   }
   .card span {
-    color: #9c9c9c;
     font-size: 12px;
   }
   .card p {
     width: 200px;
-    font-family: Poppins;
     font-size: 14px;
-    font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0em;
     text-align: left;
-    color: #0e1035;
   }
   .stars {
     width: 100px;
@@ -893,21 +863,16 @@ display: none;
   }
   h5 {
     font-size: 18px;
-    font-weight: 700;
     line-height: 42px;
-    letter-spacing: 0.01em;
     text-align: left;
   }
   #contact h1 {
     width: 206px;
     height: 98px;
-    font-family: Poppins;
     font-size: 24px;
-    font-weight: 600;
     line-height: 36px;
     letter-spacing: 0px;
     text-align: left;
-    color: #ffffff;
   }
   #contact {
     width: 70%;
@@ -972,7 +937,6 @@ display: none;
 #hero__section h1 {
   width: 280px;
   font-size: 18px;
-  font-weight: 700;
   line-height: 36px;
 }
   #fleet p {
@@ -1042,18 +1006,33 @@ display: none;
     align-items: center;
     padding: 50px 0px;
   }
+  #hero__section h1 {
+    width: 250px;
+    font-size: 16px;
+    line-height: 36px;
+  }
   #hero__section p{
-    width: 280px;
+    width: 250px;
  
   }
   .bottom .text {
     display: grid;
     height: 492px;
-    width: 280px;
+    width: 250px;
     text-align: left;
   }
   .uppercase{
     width: 200px;
+  }
+  .services {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+  }
+  .services > h3 {
+    width: 230px;
+    font-size: 12px;
   }
   #services p{
     width: 200px;
@@ -1086,6 +1065,7 @@ display: none;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    width: 240px;
   }
   #hero__section figure {
     width: 100%;
