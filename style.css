@@ -211,6 +211,8 @@ span,
   display: grid;
   height: 552px;
   width: 759px;
+  gap: 50px;
+
 }
 #safety p {
   width: 642px;
@@ -228,6 +230,13 @@ span,
   display: flex;
   justify-content: space-between;
   width: 759px;
+  font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
 }
 .capital h3 {
   text-decoration: underline;
@@ -544,6 +553,10 @@ h5 {
     width: 100%;
     margin-top: 0;
   }
+  #safety {
+    margin: 0 auto 20% auto;
+    padding: 50px 0;
+  }
   .testimony_bg {
     width: 456px;
     margin-left: -50px;
@@ -635,6 +648,8 @@ h5 {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
+    margin: 0 auto 40% auto;
+    padding: 50px 0;
   }
   #hero__section h1 {
     width: 500px;
@@ -774,6 +789,9 @@ h5 {
   #safety h1{
     text-align: center;
   }
+  .safety h3{
+    font-size: 12px;
+  }
   .cockpit {
     width: 300px;
     height: 200px;
@@ -897,7 +915,7 @@ display: none;
     height: auto;
     padding: 8% 8%;
     position: absolute;
-    bottom: -1000px;
+    bottom: -900px;
     
   }
   #contact__container {
@@ -1044,6 +1062,10 @@ display: none;
   #services{
     padding: 0 0 70px 0;
   }
+  #safety{
+    margin: 0 auto 80% auto;
+    padding: 50px 0;
+  }
   #safety p {
     width: 200px;
     font-size: 14px;
@@ -1063,6 +1085,7 @@ display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
   }
   #hero__section figure {
     width: 100%;
